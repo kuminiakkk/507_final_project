@@ -18,12 +18,12 @@ Why I don’t need to use those three original trees? The reason is that the pro
 
 
 About how data is organized into data structure.
+
 I store the data in the tree data structure, after storing the API data in the list, since I need to build three different trees, I define three classes, here I will introduce the voting_Tree tree to give the logic of my construction, the other two trees are very similar, I will not elaborate here.
 
 I use list[0] as the root of the tree, after which I insert the other values in the list into the tree structure through the for loop; In this process, I build the tree by the defined insert functions in the class.
 
 Specifically, I build the tree by storing values smaller or equal to the voting score in list[0] in the left node and larger values in the right node and use recursion to find out where the value should be stored.
-![image](https://user-images.githubusercontent.com/116813844/207961798-ec5f329d-9533-4fe0-bd86-762abdf198cf.png)
 
 
 
